@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head></head>
+    <body>
+        <h1>Filmed in San Francisco</h1>
+        <h3>By Rhea Karuturi</h3>
+        <h4>Try typing in a movie from the list below and I will return a map of where in SF the film was shot.</h4>
+        <img src = "http://www.sftravel.com/sites/sftraveldev.prod.acquia-sites.com/files/SanFrancisco_0.jpg" height="400" width="800" ></img>
+        <table border=1 cellpadding=7>
+            <tr>
+                <th>Films in SF you can search for</th>
+            </tr>
+              {% for film in film_list %}
+            <tr>
+              <td>{{film}}</td>
+            </tr>
+            {% endfor %}
+    </body>
+</html>

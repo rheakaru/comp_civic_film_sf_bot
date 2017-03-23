@@ -1,0 +1,2 @@
+This bot uses the data from a dataset about film locations in SF and prints a message with some information about the movie (title, actors, release date etc). It also returns a google street view of the location using the address. The bot will let you type in a name of a movie (from a list provided) to see where it was filmed in SF.
+A similar project, but one done by hand can be found at: http://reelsf.com/fog-over-frisco-1934/
