@@ -1,2 +1,8 @@
 This bot uses the data from a dataset about film locations in SF and prints a message with some information about the movie (title, actors, release date etc). It also returns a google street view of the location using the address. The bot will let you type in a name of a movie (from a list provided) to see where it was filmed in SF.
 A similar project, but one done by hand can be found at: http://reelsf.com/fog-over-frisco-1934/
+
+This project works by iterating through the dataset, and collecting information about each movie. When given a name of a movie, it goes through the dataset until it finds a match and then uses the address listed to create a link to a static google street view map. This map is then displayed on the page that the user comes to.
+
+The problem with this dataset is that it is a version I have downloaded, so it is static - a cool update would be to have the dataset update as people filed for permission to film, and then to have a feature where the most recent film shootings where shown - so people can see the latest film news. another update that would be interesting is to allow users to enter their location, and find films that were shot near them - this can be for latest movies being filmed near them, or just from the whole list. This can be mapped with google maps (with markers).
+
+I think what I would interesting about the REEL SF website, and what I think it adds that this dataset doesn't is screencaps from the movies themselves that show the shots that were filmed in SF next to pictures of the location. I think that is out of the scope of this project though as it would require a lot of curation.
